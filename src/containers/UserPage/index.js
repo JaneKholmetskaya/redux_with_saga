@@ -1,6 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import { Link } from 'react-router-dom';
-import Loader from '../Loader';
+// import Loader from '../Loader';
 import { array, bool } from "prop-types";
 import "./index.css"
 import {connect} from "react-redux";

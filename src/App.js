@@ -33,7 +33,7 @@ class App extends Component {
 	}
 
   render() {
-		const { posts, isLoading } = this.state;
+		// const { posts, isLoading } = this.state;
 
 		return (
 				<Fragment>

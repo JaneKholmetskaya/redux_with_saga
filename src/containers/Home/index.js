@@ -37,6 +37,7 @@ class HomePage extends Component {
 							)
 					}
 				</ul>
+									
 			</div>
 		);
 	}

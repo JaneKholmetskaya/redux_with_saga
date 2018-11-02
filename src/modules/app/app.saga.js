@@ -7,7 +7,7 @@ import {
 	fetchUserFailure,
 	fetchUserSuccess
 } from "./app.actions";
-import { takeEvery, put, select } from "redux-saga/effects";
+import { takeEvery, put } from "redux-saga/effects";
 
 function* fetchAllData() {
 	put(showLoader());

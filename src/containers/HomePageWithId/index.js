@@ -1,6 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import { Link } from 'react-router-dom';
-import Loader from '../Loader';
+// import Loader from '../Loader';
 import { array, bool } from "prop-types";
 import "./index.css"
 import {connect} from "react-redux";
@@ -27,11 +27,10 @@ class HomePageWithId extends Component {
 					<h1>{ title }</h1>
 					<h4>{ body }</h4>
 
-					<button>
+					
 						<Link to='/homepage'>
-							Back to homepage
+							<button>Back to homepage</button>					
 						</Link>
-					</button>
 				</div>
 		);
 	}

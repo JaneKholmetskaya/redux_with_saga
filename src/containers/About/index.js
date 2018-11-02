@@ -1,5 +1,4 @@
 import React from "react"
-import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 class About extends React.Component {
 	constructor(props) {
@@ -10,7 +9,7 @@ class About extends React.Component {
 		const { name  } = this.props;
 		console.log("this.props", this.props);
 		return(
-			<div>Меня звать ) { name } </div>
+			<div>{ name } </div>
 		)
 
 	}
